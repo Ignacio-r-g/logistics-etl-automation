@@ -76,7 +76,7 @@ SMTP_PORT=465
 ![CSV Output](images/generated_csv.png)
 
 ### SQL Audit & Priority Tracking
-![SQL Results](images/sql_logs.png)
+![SQL Results](images/SQL_logs.png)
 
 ## Usage
 
