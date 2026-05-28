@@ -98,7 +98,7 @@ pip install pandas mysql-connector-python python-dotenv openpyxl
 
 ### 2. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/logistics-etl-system.git
+git clone https://github.com/Ignacio-r-g/logistics-etl-automation
 
 cd logistics-etl-system
 ```
