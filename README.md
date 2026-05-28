@@ -19,6 +19,7 @@ This system solves that by:
 * **python-dotenv**: Secure environment variable management.
 
 ## Project Structure
+
 ├── Data/
 │   ├── Orders.xlsx             # Source data
 │   ├── invalid_clients.csv     # generated locally during execution
