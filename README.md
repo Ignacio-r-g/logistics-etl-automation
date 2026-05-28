@@ -20,22 +20,25 @@ This system solves that by:
 
 ## Project Structure
 
+```text
 ├── Data/
-│   ├── Orders.xlsx             # Source data
-│   ├── invalid_clients.csv     # generated locally during execution
-│   └── invalid_types.csv       # generated locally during execution
+│   ├── Orders.xlsx                 # Source operational data
+│   ├── invalid_clients.csv         # Auto-generated during execution
+│   └── invalid_types.csv           # Auto-generated during execution
+
 ├── images/
 │   ├── logs.png
 │   ├── generated_csv.png
 │   └── sql_logs.png
-├── .env                        # Secure credentials (ignored by git)
-├── config.py                   # Business rules and valid lists
-├── main.py             	    	# Main Python ETL script
-├── schema_setup.sql            # MySQL database architecture
-├── automation.sql           	  # MySQL Triggers,Procedure,Event,Data Integrity
-├── etl.log                     # generated locally during execution
-└── README.md
 
+├── .env                            # Secure credentials (ignored by Git)
+├── config.py                       # Business rules and validation lists
+├── main.py                         # Main Python ETL pipeline
+├── schema_setup.sql                # Database schema creation
+├── automation.sql                  # Triggers, procedures, events, constraints
+├── etl.log                         # Auto-generated execution logs
+└── README.md
+```
 ## Key Features
 
 ### Python ETL Pipeline
